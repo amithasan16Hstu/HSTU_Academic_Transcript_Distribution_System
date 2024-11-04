@@ -1,0 +1,53 @@
+<!-- Student Login Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login - Transcript Distribution</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Student Login</h2>
+        <form action="transcript_request.html" method="POST">
+            <label for="student-id">Student ID</label>
+            <input type="text" id="student-id" name="student-id" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
+
+<!-- Transcript Request Page (transcript_request.html) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Transcript - Transcript Distribution</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="request-container">
+        <h2>Request Academic Transcript</h2>
+        <form action="#" method="POST">
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" name="full-name" required>
+
+            <label for="graduation-year">Graduation Year</label>
+            <input type="number" id="graduation-year" name="graduation-year" required>
+
+            <label for="copies">Number of Copies</label>
+            <input type="number" id="copies" name="copies" required>
+
+            <button type="submit">Submit Request</button>
+        </form>
+    </div>
+</body>
+</html>
+
